@@ -1,0 +1,14 @@
+.a{
+    text-align: center;
+    color: blueviolet;
+    background-color: beige;
+    border-radius: 10px ;
+    border: 5px solid red;
+    text-transform: capitalize;
+    padding: 10px;
+    text-shadow: 2px 2px 2px red;
+    }
+
+#b{
+    color: skyblue;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            background-color: black;
+            border: 2px solid black;
+        }
+        .header{
+            height: 10%;
+            background-color: blanchedalmond;
+            border: 2px solid black;
+        }
+        .box{
+            height: 80%;
+            /* background-color: pink; */
+            
+        }
+        .boxx1{
+            height: 65%;
+            width: 100%;
+            background-color: cadetblue;
+            border: 2px solid black;
+        }
+        .boxx2{
+            height: 35%;
+            width: 100%;
+            background-color: brown;
+            border: 2px solid black;
+        }
+        #ibox1{
+            height: 100%;
+            width: 25%;
+            background-color: beige;
+            border: 2px solid black;
+            display: inline-block;
+        }
+        #ibox2{
+            height: 100%;
+            width: 49%;
+            background-color: yellow;
+            display: inline-block;
+            border: 2px solid black;
+        }
+        #ibox3{
+            height: 100%;
+            width: 25%;
+            background-color: blueviolet;
+            display: inline-block;
+            border: 2px solid black;
+        }
+        .footer{
+            height: 10%;
+            background-color: orange;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">HEADER</div>
+        <div class="box">
+            <div class="inner-box" id="ibox1">
+                <div class="boxx1"></div>
+                <div class="boxx2"></div>
+            </div>
+            <div class="inner-box" id="ibox2"></div>
+            <div class="inner-box" id="ibox3"></div>
+        </div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+</html>
