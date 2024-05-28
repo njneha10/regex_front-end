@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+}
+.container{
+    height:500vh;
+    width: 100%;
+    }
+.header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    background-color: white;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+}
+.logoo{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.logoo span{
+    
+    font-weight: bolder;
+}
+.content{
+    width: 70%;
+    height: 100%;
+}
+.content ul{
+    margin: 15px 10px 15px 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.content ul li{
+    list-style: none;
+    font-size: 18px;
+    padding-right: 25px;
+}
+.main1{
+    height:110vh;
+    width:100%;
+    position:absolute; 
+    top: 60px;
+    
+}
+.poster{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url("https://images.unsplash.com/photo-1435575653489-b0873ec954e2?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.poster .inner-content {
+    color: rgb(79, 70, 70);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 350px;
+    
+}
+.poster .inner-content b{
+    background-color: grey;
+    width: 80px;
+    height: 70px;
+    padding-left: 10px;
+    padding-top: 2px;
+    color: white;
+}
+.project{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 118vh;
+}
+.project .inner_head{
+    height: 25vh;
+    width: 95%;
+    margin: auto;
+}
+.project  h1{
+    padding-top: 70px;
+    
+}
+.project .h1 .hr{
+   
+}
+.project .second_head{
+    height: 80vh;
+    width: 95%;
+    margin:auto;
+    
+}
+.box{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxx{
+    width: 23%;
+    height: 90%;
+    
+    
+}
+.boxx img{
+    width: 100%;
+    height: 100%;
+}
+.about{
+   height: 100vh;
+   width: 100%;
+   position: absolute;
+   top:220vh;
+   margin-top: 10px;
+}
+.about .inner_head{
+    height: 22vh;
+    width: 95%;
+    margin: auto;
+}
+.about h1{
+    padding-top: 70px;
+}
+.about .about-content{
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+}
+.person{
+    height: 80vh;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.per{
+    width: 24%;
+    height: 100%;
+}
+.img{
+    width: 100%;
+    height:45% ;
+}
+.img img{
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.bio h2{
+    padding-top: 10px;
+    font-family: "Quicksand", sans-serif;
+    
+}
+.bio h3{
+    padding-top: 15px;
+    color: rgb(153, 147, 147);
+    font-weight: 50;
+}
+.bio p{
+    padding-top: 17px;
+    font-family: "Nanum Gothic", sans-serif;
+}
+.bio button{
+    height: 45px;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Nanum Gothic", sans-serif;
+    border: none;
+}
+.contact{
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top:330vh;
+   margin-top: 10px;
+}
+.contact .inner_head{
+    height: 22vh;
+    width: 95%;
+    margin: auto;
+}
+.contact h1{
+    padding-top: 60px;
+}
+.inner_head p{
+    padding-top: 20px;
+}
+.form{
+    width: 95%;
+    height: 100px;
+    padding-top: 30px;
+    margin: auto;
+}
+.form input{
+    width: 100%;
+    height: 50px;
+}
+.form button{
+    height: 40px;
+    width: 15%;
+    background-color: black;
+    color: white;
+}
+.map{
+    height: 110vh;
+    width: 100%;
+    position:absolute;
+    top:415vh;
+    /* background-color: aquamarine; */
+}
+.map .imgg{
+    height: 100%;
+    width: 95%;
+    background-color: red;
+    margin: auto;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Erlangen_Bundesautobahn_73_Auffahrt_Luftbild-20230422-RM-165734.jpg/1024px-Erlangen_Bundesautobahn_73_Auffahrt_Luftbild-20230422-RM-165734.jpg');
+}
+.footer{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top:525vh;
+    margin-top: 10px;
+}
+.footer p{
+    color:white;
+    text-align: center;
+    margin-top: 38px;
+}
